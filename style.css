@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: hsl(210, 46%, 95%);
+    font-family: "Manrope", sans-serif;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .main-content {
+    width: 750px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    border-radius: 12px;
+    float: left;
+  }
+  
+  .image-cover {
+    width: 41%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+  
+  .right-section {
+    width: 59%;
+    height: 100%;
+    padding: 40px;
+  }
+  
+  .right-section h1 {
+    font-weight: 700;
+    font-size: 23px;
+    color: #48556a;
+  }
+  
+  .right-section p {
+    line-height: 17px;
+    margin-top: 10px;
+    color: #6d7f97;
+  }
+  
+  .profile-share {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-name {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-name span:nth-of-type(1) {
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  
+  .profile-name span:nth-of-type(2) {
+    color: hsl(212, 23%, 69%);
+  }
+  
+  .button-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .share-box {
+    display: none;
+    position: absolute;
+    width: 200px;
+    background-color: h
+  }  
